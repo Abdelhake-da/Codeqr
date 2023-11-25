@@ -1,651 +1,187 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,user-scalable=no"
-    />
-    <meta name="theme-color" content="#1D59F9" />
-    <meta name="msapplication-TileColor" content="#1D59F9" />
-    <meta name="msapplication-config" content="/browserconfig.xml" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta
-      http-equiv="cache-control"
-      content="no-cache, no-store, must-revalidate"
-    />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="/android-chrome-512x512.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="/android-chrome-192x192.png"
-    />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <script
-      defer="defer"
-      data-domain="qrfy.com"
-      src="https://analytics.qrfy.com/js/plausible.js"
-    ></script>
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="preload"
-      as="image"
-      imagesrcset="/static/media/main_banner_x1.9d8b8661d9c405648e18.webp, /static/media/main_banner_x2.9886bf4d9912dba44db9.webp 2x"
-      href="/static/media/main_banner_x1.9d8b8661d9c405648e18.webp"
-    />
-    <link href="/home-styles.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Club Numérique de la Formation Pédagogique</title>
-    <link rel="prefetch" href="/static/js/721.2f052253.chunk.js" as="script" />
-    <link rel="prefetch" href="/static/js/2208.e05147a6.chunk.js" as="script" />
-    <link rel="prefetch" href="/static/js/3681.c70bf519.chunk.js" as="script" />
-    <link rel="prefetch" href="/static/js/3353.b6448499.chunk.js" as="script" />
-    <meta
-      name="keywords"
-      content="qr code generator, qr maker, qr code maket, qr code, how to make a qr code, create qr code"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://qrfy.com" />
-    <meta
-      property="og:title"
-      content="QR code generator - Create QR codes here in 3 steps"
-    />
-    <meta
-      property="og:description"
-      content="QR Code Generator for Website, vCard and more. Create a QR Code free during 7 days, discover how to make qr code that will be unique."
-    />
-    <meta property="og:image" content="https://qrfy.com/QRFY_OG-image.png" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://qrfy.com" />
-    <meta
-      property="twitter:title"
-      content="QR code generator - Create QR codes here in 3 steps"
-    />
-    <meta
-      property="twitter:description"
-      content="QR Code Generator for Website, vCard and more. Create a QR Code free during 7 days, discover how to make qr code that will be unique."
-    />
-    <meta
-      property="twitter:image"
-      content="https://qrfy.com/QRFY_OG-image.png"
-    />
     <style>
-      body {
-        font-family: Lato, sans-serif;
-      }
-    </style>
-    <style>
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 300;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwaPGR_p.woff2)
-          format("woff2");
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 300;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh7USSwiPGQ.woff2)
-          format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2)
-          format("woff2");
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2)
-          format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwaPGR_p.woff2)
-          format("woff2");
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 700;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh6UVSwiPGQ.woff2)
-          format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 900;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh50XSwaPGR_p.woff2)
-          format("woff2");
-        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
-          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      }
-      @font-face {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 900;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh50XSwiPGQ.woff2)
-          format("woff2");
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
-          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
-          U+2212, U+2215, U+FEFF, U+FFFD;
-      }
-    </style>
-    <script defer="defer" src="/static/js/main.c8175993.js"></script>
-    <link href="/static/css/main.0cb6e032.css" rel="stylesheet" />
-    <style data-jss="" data-meta="MuiCssBaseline">
-      html {
-        box-sizing: border-box;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      *,
-      *::before,
-      *::after {
-        box-sizing: inherit;
-      }
-      strong,
-      b {
-        font-weight: 700;
-      }
-      body {
-        color: #220e27;
-        margin: 0;
-        font-size: 0.875rem;
-        font-family: Lato, sans-serif;
-        font-weight: 400;
-        line-height: 1.43;
-        background-color: #fff;
-      }
-      @media print {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: black;
+            text-decoration: none;
+
+        }
+
         body {
-          background-color: #fff;
+            height: 100%;
+            background: linear-gradient(149deg, rgba(223, 167, 71, 1) 10%, rgba(146, 24, 46, 1) 45%, rgba(13, 35, 71, 1) 83%);
         }
-      }
-      body::backdrop {
-        background-color: #fff;
-      }
-      ul {
-        margin: 0;
-        padding-inline-start: 0;
-      }
-      li {
-        margin: 0;
-        list-style: none;
-      }
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-      button {
-        border: 0;
-        cursor: pointer;
-        outline: 0;
-        padding: 0;
-        font-size: inherit;
-        background: transparent;
-        box-sizing: border-box;
-        font-family: Lato, sans-serif;
-      }
-      input::-webkit-inner-spin-button,
-      input::-webkit-outer-spin-button {
-        margin: 0;
-        -webkit-appearance: none;
-      }
-      p {
-        margin: 0;
-        font-size: 1.9rem;
-        /* white-space: pre-wrap; */
-      }
-      h1 {
-        margin: 0;
-        font-weight: 500;
-        /* white-space: pre-wrap; */
-      }
-      h2 {
-        margin: 0;
-        font-weight: 500;
-        /* white-space: pre-wrap; */
-      }
-      h3 {
-        margin: 0;
-        font-weight: 500;
-        /* white-space: pre-wrap; */
-      }
-      h4 {
-        margin: 0;
-        font-weight: 500;
-        /* white-space: pre-wrap; */
-      }
-      h5 {
-        margin: 0;
-        font-weight: 500;
-        /* white-space: pre-wrap; */
-      }
-      h6 {
-        margin: 0;
-        font-weight: 500;
-        /* white-space: pre-wrap; */
-      }
-      path.custom-color--circle-check-green {
-        fill: #69df6a;
-      }
+
+        img {
+            width: 60px;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(149deg, rgba(219, 219, 219, 0.8) 0%, rgba(157, 155, 155, 0.8) 35%, rgba(157, 155, 155, 0.8) 66%, rgba(219, 219, 219, 0.8) 100%);
+            width: min(95%, 500px);
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .title h1 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .links {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .links a {
+            margin: 5px auto;
+            width: 350px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            border-radius: 10px;
+            border: 1px solid black;
+            background-color: #0d2347c5;
+            color: rgb(205, 205, 205);
+            fill: rgba(255, 255, 255, 0.902);
+        }
+
+        .links a:hover {
+            background-color: rgb(205, 205, 205);
+            color: #0d2347;
+            fill: #0d2347;
+            transform: scale(1.2);
+        }
+
+        .links a svg {
+            margin: 0 10px;
+            width: 40px;
+        }
+
+        .links a span {
+            color: inherit;
+            font-size: 1.4rem;
+        }
     </style>
-    <style data-jss="" data-meta="MuiSnackbar">
-      .MuiSnackbar-root {
-        left: 8px;
-        right: 8px;
-        display: flex;
-        z-index: 1400;
-        position: fixed;
-        align-items: center;
-        justify-content: center;
-      }
-      .MuiSnackbar-anchorOriginTopCenter {
-        top: 8px;
-      }
-      @media (min-width: 660px) {
-        .MuiSnackbar-anchorOriginTopCenter {
-          top: 24px;
-          left: 50%;
-          right: auto;
-          transform: translateX(-50%);
-        }
-      }
-      .MuiSnackbar-anchorOriginBottomCenter {
-        bottom: 8px;
-      }
-      @media (min-width: 660px) {
-        .MuiSnackbar-anchorOriginBottomCenter {
-          left: 50%;
-          right: auto;
-          bottom: 24px;
-          transform: translateX(-50%);
-        }
-      }
-      .MuiSnackbar-anchorOriginTopRight {
-        top: 8px;
-        justify-content: flex-end;
-      }
-      @media (min-width: 660px) {
-        .MuiSnackbar-anchorOriginTopRight {
-          top: 24px;
-          left: auto;
-          right: 24px;
-        }
-      }
-      .MuiSnackbar-anchorOriginBottomRight {
-        bottom: 8px;
-        justify-content: flex-end;
-      }
-      @media (min-width: 660px) {
-        .MuiSnackbar-anchorOriginBottomRight {
-          left: auto;
-          right: 24px;
-          bottom: 24px;
-        }
-      }
-      .MuiSnackbar-anchorOriginTopLeft {
-        top: 8px;
-        justify-content: flex-start;
-      }
-      @media (min-width: 660px) {
-        .MuiSnackbar-anchorOriginTopLeft {
-          top: 24px;
-          left: 24px;
-          right: auto;
-        }
-      }
-      .MuiSnackbar-anchorOriginBottomLeft {
-        bottom: 8px;
-        justify-content: flex-start;
-      }
-      @media (min-width: 660px) {
-        .MuiSnackbar-anchorOriginBottomLeft {
-          left: 24px;
-          right: auto;
-          bottom: 24px;
-        }
-      }
-    </style>
-    <style data-jss="" data-meta="Preview-Container"></style>
-    <style data-jss="" data-meta="Preview-Container"></style>
-    <style data-jss="" data-meta="Preview-Wrapper"></style>
-    <style data-jss="" data-meta="Preview-Wrapper"></style>
-    <style data-jss="" data-meta="Preview-LinkList">
-      .jss4 {
-        width: 100%;
-        display: flex;
-        padding: 36px 24px 72px;
-        min-width: 300px;
-        min-height: 100vh;
-        align-items: center;
-        flex-direction: column;
-        background-color: #fff;
-      }
-      @media (min-width: 660px) {
-        .jss4 {
-          padding: 40px 24px 168px;
-        }
-      }
-      .jss4.jss15 {
-        padding: 36px 24px 72px;
-      }
-      .jss5 {
-        width: 100px;
-        height: 100px;
-        overflow: hidden;
-        border-radius: 100%;
-      }
-      @media (min-width: 660px) {
-        .jss5 {
-          width: 140px;
-          height: 140px;
-        }
-      }
-      .jss5.jss15 {
-        width: 100px;
-        height: 100px;
-      }
-      .jss6 {
-        width: 100%;
-      }
-      .jss7 {
-        margin-top: 24px;
-      }
-      @media (min-width: 660px) {
-        .jss7 {
-          margin-top: 20px;
-        }
-      }
-      .jss7.jss15 {
-        margin-top: 24px;
-      }
-      .jss8 {
-        font-size: 22px;
-        max-width: 591px;
-        text-align: center;
-        font-weight: 700;
-        line-height: 36px;
-        margin-bottom: 2px;
-      }
-      @media (min-width: 660px) {
-        .jss8 {
-          font-size: 28px;
-          margin-bottom: 8px;
-        }
-      }
-      .jss8.jss15 {
-        font-size: 22px;
-        margin-bottom: 2px;
-      }
-      .jss9 {
-        margin: 0;
-        font-size: 14px;
-        max-width: 591px;
-        text-align: center;
-        line-height: 21px;
-      }
-      @media (min-width: 660px) {
-        .jss9 {
-          font-size: 16px;
-          line-height: 25px;
-        }
-      }
-      .jss9.jss15 {
-        font-size: 14px;
-        line-height: 21px;
-      }
-      .jss10 {
-        width: 100%;
-        max-width: 591px;
-        margin-top: 21px;
-        margin-bottom: 48px;
-      }
-      @media (min-width: 660px) {
-        .jss10 {
-          margin-top: 35px;
-        }
-      }
-      .jss10.jss15 {
-        margin-top: 21px;
-      }
-      .jss11 {
-        width: 100%;
-        cursor: pointer;
-        display: flex;
-        outline: none;
-        padding: 8px 48px;
-        position: relative;
-        min-height: 48px;
-        text-align: center;
-        transition: all 0.2s ease-in-out;
-        align-items: center;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 8px;
-        margin-bottom: 8px;
-        justify-content: center;
-      }
-      .jss11:before {
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        content: "";
-        position: absolute;
-        box-shadow: 0 4px 6px 0 #cdd1e0;
-        border-radius: 8px;
-        mix-blend-mode: multiply;
-      }
-      .jss11:last-child {
-        margin-bottom: 0;
-      }
-      .jss11:hover,
-      .jss11:active {
-        background-color: transparent !important;
-      }
-      @media (min-width: 660px) {
-        .jss11 {
-          padding: 12px 84px;
-          min-height: 84px;
-          margin-bottom: 12px;
-        }
-      }
-      .jss11.jss15 {
-        padding: 8px 48px;
-        min-height: 48px;
-        margin-bottom: 8px;
-      }
-      .jss12 {
-        left: 8px;
-        position: absolute;
-        max-width: 32px;
-        max-height: 32px;
-        border-radius: 4px;
-      }
-      @media (min-width: 660px) {
-        .jss12 {
-          left: 12px;
-          max-width: 60px;
-          max-height: 60px;
-        }
-      }
-      .jss12.jss15 {
-        left: 8px;
-        max-width: 32px;
-        max-height: 32px;
-      }
-      .jss13 {
-        font-size: 20px;
-        text-align: center;
-        transition: all 0.2s ease-in-out;
-        line-height: 17px;
-        letter-spacing: 0;
-      }
-      @media (min-width: 660px) {
-        .jss13 {
-          font-size: 20px;
-          line-height: 20px;
-        }
-      }
-      .jss13.jss15 {
-        font-size: 13px;
-        line-height: 17px;
-      }
-      .jss14 {
-        max-width: 591px;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/static/css/4687.d6ce9270.chunk.css"
-    />
-    <link
-      rel="canonical"
-      href="https://qrfy.com/p/e2M4GgG_r9"
-      data-react-helmet="true"
-    />
-    <meta http-equiv="content-language" content="en" data-react-helmet="true" />
-  </head>
-  <body class="">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-      <div class="jss16 jss17" fonts="[object Object]">
-        <div class="jss18 jss19" style="padding-bottom: 0px">
-          <div class="jss4" style="background-color: rgb(13, 49, 140)">
-            <div class="jss5">
-              <img
-                src="https://img.qrfy.com/img/original/3647338c-771c-49c8-95df-8b54670fdda8.webp"
-                alt="logo"
-                class="jss6"
-              />
+</head>
+
+<body>
+    <section>
+        <div class="center">
+            <div class="logo">
+                <img src="https://img.qrfy.com/img/original/3647338c-771c-49c8-95df-8b54670fdda8.webp" alt="logo" />
             </div>
-            <div class="jss7">
-              <h1 class="jss8" style="color: rgb(255, 255, 255)">
-                Club Numérique de la Formation Pédagogique
-              </h1>
-              <p class="jss9" style="color: rgb(255, 255, 255)">
-                être formé pour former
-              </p>
+            <div class="title">
+                <h1>
+                    Club Numérique de la Formation Pédagogique
+                </h1>
+                <p>
+                    être formé pour former
+                </p>
             </div>
-            <div class="jss10">
-              <a
-                href="https://mail.google.com/"
-                class="jss11"
-                style="
-                  background-color: rgb(190, 200, 202);
-                  border-color: rgb(190, 200, 202);
-                "
-                ><img
-                  src="https://img.qrfy.com/img/original/eba03a09-e51f-4cc8-94d4-c8e0381f6918.svg"
-                  alt="logo"
-                  class="jss12"
-                /><span class="jss13" style="color: rgb(0, 0, 0)"
-                  >clubnfp@gmail.com</span
-                ></a
-              ><a
-                href="https://www.facebook.com/groups/380662559016999"
-                class="jss11"
-                style="
-                  background-color: rgb(190, 200, 202);
-                  border-color: rgb(190, 200, 202);
-                "
-                ><img
-                  src="https://img.qrfy.com/img/original/2af98745-caf8-42ab-8f95-01677157bc67.svg"
-                  alt="logo"
-                  class="jss12"
-                /><span class="jss13" style="color: rgb(0, 0, 0)"
-                  >Club CnFp Oran</span
-                ></a
-              ><a
-                href="https://www.instagram.com/clubcnfporan/"
-                class="jss11"
-                style="
-                  background-color: rgb(190, 200, 202);
-                  border-color: rgb(190, 200, 202);
-                "
-                ><img
-                  src="https://img.qrfy.com/img/original/f12ed76a-f396-4b1b-b7ba-542751a455eb.svg"
-                  alt="logo"
-                  class="jss12"
-                /><span class="jss13" style="color: rgb(0, 0, 0)"
-                  >clubcnfporan</span
-                ></a
-              ><a
-                href="https://maps.app.goo.gl/nS1BhZvvV9Te8w9o7"
-                class="jss11"
-                style="
-                  background-color: rgb(190, 200, 202);
-                  border-color: rgb(190, 200, 202);
-                "
-                ><img
-                  src="https://img.qrfy.com/img/original/930c122e-35bd-49e0-afa5-d5fa305c3401.svg"
-                  alt="logo"
-                  class="jss12"
-                /><span class="jss13" style="color: rgb(0, 0, 0)"
-                  >La Fac</span
-                ></a
-              >
+            <div class="links">
+                <a href="https://mail.google.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50px" width="50px" viewBox="0 0 50 50">
+                        <path
+                            d="M 5.5 7 C 3.03125 7 1.011719 9.015625 1 11.484375 C 1 11.484375 1 11.488281 1 11.492188 C 1 11.496094 1 11.496094 1 11.5 L 1 38.5 C 1 40.972656 3.027344 43 5.5 43 L 44.5 43 C 46.972656 43 49 40.972656 49 38.5 L 49 11.5 C 49 11.496094 49 11.496094 49 11.492188 C 49 11.488281 49 11.484375 49 11.484375 C 48.988281 9.015625 46.96875 7 44.5 7 Z M 8.101563 9 L 41.902344 9 L 25 20.78125 Z M 4.773438 9.117188 L 25 23.21875 L 45.230469 9.117188 C 46.253906 9.425781 46.992188 10.355469 47 11.488281 C 46.996094 11.699219 46.78125 12.121094 46.46875 12.460938 C 46.152344 12.804688 45.84375 13.019531 45.84375 13.019531 L 45.839844 13.027344 L 25 27.777344 L 4.160156 13.027344 L 4.15625 13.019531 C 4.15625 13.019531 3.847656 12.804688 3.53125 12.460938 C 3.21875 12.121094 3.003906 11.699219 3 11.488281 C 3.007813 10.355469 3.746094 9.425781 4.773438 9.117188 Z M 3 14.652344 C 3 14.652344 3.007813 14.660156 3.007813 14.660156 L 3.015625 14.664063 L 3.015625 14.667969 L 6 16.777344 L 6 41 L 5.5 41 C 4.109375 41 3 39.890625 3 38.5 Z M 47 14.652344 L 47 38.5 C 47 39.890625 45.890625 41 44.5 41 L 44 41 L 44 16.777344 L 46.984375 14.667969 L 46.984375 14.664063 C 46.984375 14.664063 47 14.652344 47 14.652344 Z M 8 18.191406 L 25 30.222656 L 42 18.191406 L 42 41 L 8 41 Z" />
+                    </svg>
+                    <span>clubnfp@gmail.com</span>
+                </a>
+                <a href="https://www.facebook.com/groups/380662559016999">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50px" width="50px" viewBox="0 0 50 50">
+                        <path
+                            d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z" />
+                    </svg>
+                    <span>Club CnFp Oran</span>
+                </a>
+                <a href="https://www.instagram.com/clubcnfporan/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50px" width="50px" viewBox="0 0 50 50">
+                        <path
+                            d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z" />
+                    </svg>
+                    <span>clubcnfporan</span>
+                </a>
+                <a href="https://maps.app.goo.gl/nS1BhZvvV9Te8w9o7">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve" viewBox="0 0 476.107 476.107" id="Capa_1" version="1.1" width="800px"
+                        height="50px">
+                        <path
+                            d="M312.226,107.062c4.421,10.177,6.663,21.005,6.663,32.183c0,44.572-36.263,80.835-80.835,80.835  s-80.835-36.263-80.835-80.835s36.263-80.835,80.835-80.835c14.991,0,29.63,4.136,42.334,11.961  c3.527,2.172,4.626,6.792,2.453,10.318c-2.173,3.528-6.792,4.628-10.319,2.453c-10.338-6.367-22.257-9.732-34.468-9.732  c-36.302,0-65.835,29.533-65.835,65.835s29.533,65.835,65.835,65.835s65.835-29.533,65.835-65.835  c0-9.109-1.824-17.927-5.421-26.206c-1.65-3.799,0.092-8.217,3.891-9.867C306.155,101.519,310.575,103.262,312.226,107.062z   M377.299,139.244c0,40.795-30.339,130.421-56.319,194.774c-15.226,37.715-30.987,72.136-44.381,96.923  c-21.449,39.694-31.201,45.166-38.545,45.166c-7.308,0-17.695-5.364-39.333-45.147c-13.401-24.641-29.138-59.075-44.31-96.961  c-25.65-64.047-55.603-153.482-55.603-194.755C98.809,62.465,161.273,0,238.054,0S377.299,62.465,377.299,139.244z M362.299,139.244  C362.299,70.735,306.563,15,238.054,15S113.809,70.735,113.809,139.244c0,30.965,21.251,105.33,52.88,185.047  c14.553,36.678,29.789,70.489,42.903,95.207c17.78,33.513,26.186,40.142,28.351,41.387c2.152-1.375,10.416-8.405,28.115-42.057  c13.133-24.972,28.38-58.781,42.931-95.201C341.373,242.571,362.299,170.197,362.299,139.244z" />
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </svg>
+                    <span>La Fac</span>
+                </a>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <script>
-      var homePathnameRegex =
-        /^\/(cs|de|en|es|fi|fr|it|ja|ko|nl|pl|pt|ro|ru|sl|sv|th|tr|uk|el|id|bg|hu|hr|sr|sk|ms)\/?$/i;
-      ("/" === window.location.pathname ||
-        homePathnameRegex.test(window.location.pathname)) &&
-        (document.body.className = "loading-home");
-    </script>
-  </body>
+    </section>
+
+</body>
+
 </html>
